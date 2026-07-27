@@ -6,14 +6,18 @@ This kind of circuit is the basis for things like digital clocks, event counters
 
 
 How it works
-Clock source: 555 timer set up to free-run and generate a continuous square wave, R1 (R7) = 3.3MΩ, R2 (R6) = 3.3MΩ, C1 = 100nF, C2 = 100nF (pin 5 decoupling)
-f ≈ 1.44 / ((R1 + 2·R2)·C) ≈ 1.45 Hz (period ≈ 0.69s, duty cycle ≈ 67%)
+Clock source: 555 timer set up to free-run and generate a continuous square wave, R6 = 3.3MΩ, R7 = 3.3MΩ, C1 = 100nF, C2 = 100nF (pin 5 decoupling)
+f ≈ 1.44 / (R7 + 2·R6)·C) ≈ 1.45 Hz (period ≈ 0.69s, duty cycle ≈ 67%)
+
 
 Slow enough to visually watch the counter step through each digit
 
+
 Counting: Clock feeds the 74LS90, which counts in binary/BCD and advances Q0→Q3 on each rising edge
 
+
 Decoding & display: Counter output is decoded by a 74LS47 BCD-to-7-segment driver and shown on a common-anode 7-segment display; R2–R5 (330Ω) limit segment current
+R1 (1kΩ): Pull-down resistor between a switch and ground — keeps that line at a defined logic level when the switch is open (likely a manual reset or step button)
 
 Build
 
