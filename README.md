@@ -2,7 +2,7 @@ Digital Counter (555 + 74LS90)
 
 A binary/decade counter built and simulated in Proteus. A 555 timer generates a clock pulse, which drives a 74LS90 decade counter through its binary states (Q0–Q3), decoded and displayed on a 7-segment output.
 
-This kind of circuit is the basis for things like digital clocks, event counters, frequency dividers, and timing/sequencing circuits — anywhere you need to count pulses without a microcontroller.
+This kind of circuit is the basis for things like digital clocks, event counters, frequency dividers and timing/sequencing circuits - anywhere you need to count pulses without a microcontroller.
 
 
 How it works
@@ -35,14 +35,10 @@ Proteus simulation + physical build demo
 <img width="333" height="221" alt="Screenshot 2026-07-27 223426" src="https://github.com/user-attachments/assets/deb08cc9-518d-46d9-85f0-8e6c2e04ab20" />
 
 
-
-
 <img width="389" height="218" alt="Screenshot 2026-07-27 223405" src="https://github.com/user-attachments/assets/83febbe3-e2c2-403a-8978-94579996c626" />
 
 
 <img width="640" height="336" alt="Board Photo" src="https://github.com/user-attachments/assets/84b35956-ec82-4228-8045-589d13549e1a" />
-
-
 
 
 <img width="3024" height="4032" alt="IMG_1604" src="https://github.com/user-attachments/assets/e1046864-ec38-4e4e-b74e-29111af310c7" />
