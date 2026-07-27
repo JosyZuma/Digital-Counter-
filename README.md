@@ -26,11 +26,15 @@ Then built physically on breadboard to confirm real-world behaviour
 Waveform captures included: 555 clock output, and 74LS90 output across Q0–Q3 showing the binary count sequence
 
 
-https://github.com/user-attachments/assets/48efc315-cc7d-4907-adc2-dbe4ab78cf46
-
 Files
 
 Proteus simulation + physical build demo
+
+
+
+https://github.com/user-attachments/assets/48efc315-cc7d-4907-adc2-dbe4ab78cf46
+
+
 
 <img width="333" height="221" alt="Screenshot 2026-07-27 223426" src="https://github.com/user-attachments/assets/deb08cc9-518d-46d9-85f0-8e6c2e04ab20" />
 
