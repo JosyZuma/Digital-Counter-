@@ -23,7 +23,7 @@ Simulated first in Proteus to verify timing and logic transitions
 
 Then built physically on breadboard to confirm real-world behaviour
 
-Waveform captures included: 555 clock output, and 74LS90 output across Q0–Q3 showing the binary count sequence
+Waveform captures included: 555 clock output and 74LS90 output across Q0–Q3 showing the binary count sequence
 
 
 Files
