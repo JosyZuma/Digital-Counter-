@@ -17,6 +17,8 @@ Counting: Clock feeds the 74LS90, which counts in binary/BCD and advances Q0→Q
 
 
 Decoding & display: Counter output is decoded by a 74LS47 BCD-to-7-segment driver and shown on a common-anode 7-segment display; R2–R5 (330Ω) limit segment current
+
+
 R1 (1kΩ): Pull-down resistor between a switch and ground — keeps that line at a defined logic level when the switch is open (likely a manual reset or step button)
 
 Build
